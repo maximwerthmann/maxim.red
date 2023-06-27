@@ -65,10 +65,25 @@ module.exports = {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: 0 },
         },
+        "fade-up": {
+          from: { opacity: 0, top: 20 },
+          to: { opacity: 1, top: 0, transition: { type: "spring" } }
+        },
+        "slide-right": {
+          from: { opacity: 0, left: "-25vw" },
+          to: { opacity: 1, left: 0 },
+        },
+        "slide-left": {
+          from: { opacity: 0, right: "-25vw" },
+          to: { opacity: 1, right: 0 },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "fade-up": "fade-up 0.5s ease-out forwards",
+        "slide-right": "slide-right 1s ease-out forwards",
+        "slide-left": "slide-left 1s ease-out forwards",
       },
     },
   },
