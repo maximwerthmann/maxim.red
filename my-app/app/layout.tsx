@@ -8,7 +8,6 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Maxim マクスイム",
   description: "17 y/o junior full-stack web developer & designer from Belgium.",
-theme-color: "#000",
 };
 
 export default function RootLayout({
