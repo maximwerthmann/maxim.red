@@ -6,7 +6,7 @@ const MePng = "me.png"
 
 export default function Home() {
   return (
-    <section className="w-full h-full flex flex-col items-center justify-center p-8 overflow-hidden">
+    <section className="flex flex-1 flex-col items-center justify-center p-8 overflow-hidden">
       <div className="flex flex-col md:flex-row items-center justify-center md:space-x-16 space-y-8 md:space-y-0">
         <img className='rounded-full max-h-64 lg:max-h-96 size-auto relative animate-slide-right' src={MePng}/>
         <div className="pr-0 md:pr-8 lg:pr-16 space-y-8 md:space-y-12">
