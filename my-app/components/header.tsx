@@ -47,7 +47,7 @@ export default function Header() {
   }
 
   return (
-    <header className="w-full h-14 absolute flex items-center justify-between border-b px-8 md:px-16">
+    <header className="w-full h-14 flex items-center justify-between border-b px-8 md:px-16">
       <div className="flex space-x-4 w-full justify-between md:justify-start">
         <DropdownMenu>
           <DropdownMenuTrigger className="flex items-center" asChild>
